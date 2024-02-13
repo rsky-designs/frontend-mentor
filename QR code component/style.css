@@ -26,7 +26,7 @@ p {
   background-color: hsl(212, 45%, 89%);
 }
 .box {
-  width: 260px;
+  width: 270px;
   padding: 1rem;
   text-align: center;
   border-radius: 1.2rem;
@@ -36,6 +36,13 @@ p {
 .box > img {
   width: 100%;
   border-radius: 0.6rem;
+}
+.box > h1 {
+  padding-inline: 0.5rem;
+  padding-top: 0.5rem;
+}
+.box > p {
+  padding-inline: 0.5rem;
 }
 
 @media screen and (max-width: 1500px) {
